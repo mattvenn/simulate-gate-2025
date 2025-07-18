@@ -7,6 +7,8 @@ Standard cell Simulation
 
 * instantiate the cell - adjust this to match your standard cell
 Xcell A B VGND VGND VPWR VPWR Y sky130_fd_sc_hd__nand2_1
+
+* use an inverter as a load for the cell to drive
 Xnot  Y VGND VGND VPWR VPWR NOTY sky130_fd_sc_hd__inv_1
 
 * set gnd and power
