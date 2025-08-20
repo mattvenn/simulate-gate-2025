@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: mattvenn/z2a-course-regressions@main
         with:
-          repo: mattvenn/simulate-gate-refresh25
+          repo: mattvenn/simulate-gate-2025
           ref: main
           command: make check
           artifact_file: nand.svg
